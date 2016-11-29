@@ -41,6 +41,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::WindowsFormsApplication2.Properties.Resources.rebel_image;
             this.ClientSize = new System.Drawing.Size(659, 486);
             this.Name = "Form1";
             this.Text = "Form1";
