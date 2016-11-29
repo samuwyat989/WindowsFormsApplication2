@@ -1,4 +1,6 @@
-﻿using System;
+﻿/// Created on November 29, 2016 by Sam Wyatt
+/// Unit 4 Summative. Uses loops to display graphics
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,15 +9,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Threading;
+using System.Threading; 
 
 namespace WindowsFormsApplication2
 {
     public partial class Form1 : Form
     {
-        Graphics g;
-        Graphics g2;
-        Bitmap bm;
+        Graphics g; //On-screen graphics associateed with Form
+        Graphics g2; //Off-screen graphics associated with the bitmap stored in memory 
+        Bitmap bm; //Memory for the off-screen buffer 
         int x = 675;
         int y = 50;
         int drop = 115;
