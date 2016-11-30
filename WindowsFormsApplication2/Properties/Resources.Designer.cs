@@ -61,11 +61,39 @@ namespace WindowsFormsApplication2.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Explosion_U {
+            get {
+                return ResourceManager.GetStream("Explosion_U", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Photon_Torpedo {
+            get {
+                return ResourceManager.GetStream("Photon_Torpedo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap rebel_image {
             get {
                 object obj = ResourceManager.GetObject("rebel_image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap startScreen {
+            get {
+                object obj = ResourceManager.GetObject("startScreen", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
